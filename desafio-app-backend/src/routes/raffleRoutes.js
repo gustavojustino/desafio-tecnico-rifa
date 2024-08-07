@@ -6,5 +6,6 @@ const raffleController = require('../controllers/raffleController');
 // Requisição HTTP
 router.post('/buy', raffleController.buyRaffle);
 router.get('/draw', raffleController.drawRaffle);
+router.get('/', raffleController.getAllRaffles);
 
 module.exports = router;
