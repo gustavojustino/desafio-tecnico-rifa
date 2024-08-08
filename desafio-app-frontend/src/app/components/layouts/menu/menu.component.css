@@ -1,0 +1,20 @@
+.navbar{
+  display: flex;
+}
+.navbar-lists {
+  display: flex;
+  list-style: none;
+}
+.navbar-list {
+  width: 150px;
+  text-align: center;
+  font-weight: 500;
+}
+.navbar-item {
+  color: #ffffff;
+  text-decoration: none;
+}
+.navbar-list:first-child
+.navbar-item {
+  color: #008261;
+}
