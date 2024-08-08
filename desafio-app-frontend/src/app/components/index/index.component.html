@@ -1,1 +1,121 @@
-<app-menu></app-menu>
+<div class="content">
+  <header class="header-container">
+    <a class="logo" href="">
+      <img src="../../../assets/logo.svg" alt="logo">
+    </a>
+    <app-menu></app-menu>
+  </header>
+
+  <main class="main-container">
+    <img src="../../../assets/banner-section.png" alt="banner promocional" class="banner-image">
+    <div class="promo-raffles-wrapper">
+      <h1 class="promo-raffles title">Concorra a <span >R$100.000,00</span> ou uma <span>Fastback T200</span>!</h1>
+      <p class="promo-raffles description">O site escolhe números aleatórios para você</p>
+      <p class="promo-raffles description quota">Por apenas R$0,25 por cota</p>
+      <p class="promo-raffles description min-quota">Minimo de 10 cotas</p>
+      <p class="promo-raffles promo-select" style="margin-top: 20px;">Pré selecione uma quantidade</p>
+
+      <div class="select-raffles wrapper">
+        <div class="select-raffle">
+          <span class="raffle-option">
+            <h2>+10</h2>
+            <p>Números</p>
+          </span>
+          <span class="raffle-option">
+            <h2>+25</h2>
+            <p>Números</p>
+          </span>
+          <span class="raffle-option">
+            <h2>+50</h2>
+            <p>Números</p>
+          </span>
+        </div>
+
+        <div class="buy-raffles wrapper">
+          <div class="buy-raffle">
+            <button class="btn-add-raffle">+</button>
+            <span class="cont-raffles">N</span>
+            <button class="btn-subtract-raffle">-</button>
+          </div>
+
+        <div class="buy-raffles btns-wrapper">
+          <button class="btn-buy-raffle">Comprar agora</button>
+          <button class="btn-list-raffle">Ver meus números</button>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="check-section container">
+    <h1>CONFIRA <span>OUTROS PRÊMIOS</span> QUE VOCÊ PODE GANHAR</h1>
+    <div class="prizes-wrapper">
+      <article class="prize-item">
+        <img src="../../../assets/banner1.png" alt="Prêmio 1">
+        <h2>Bilhete Premiado</h2>
+        <h3>30 de R$ 1.000,00</h3>
+        <h4>(R$ 30.000,00)</h4>
+      </article>
+      <article class="prize-item">
+        <img src="../../../assets/banner2.png" alt="Prêmio 2">
+        <h2>Bilhete Premiado</h2>
+        <h3>30 de R$ 1.000,00</h3>
+        <h4>(R$ 30.000,00)</h4>
+      </article>
+      <article class="prize-item">
+        <img src="../../../assets/banner3.png" alt="Prêmio 3">
+        <h2>Bilhete Premiado</h2>
+        <h3>60 de R$ 500,00</h3>
+        <h4>(R$ 30.000,00)</h4>
+      </article>
+      <article class="prize-item">
+        <img src="../../../assets/banner4.png" alt="Prêmio 4">
+        <h2>Bilhete Premiado</h2>
+        <h3>8 de R$ 1.000,00</h3>
+        <h4>(R$ 8.000,00)</h4>
+      </article>
+    </div>
+  </section>
+
+  <section class="terms-section container">
+    <h1>DESCRIÇÃO E TERMOS DO <span>SORTEIO</span></h1>
+    <div class="description-wrapper">
+      <p>Está chegando a oportunidade que você esperava para dar um upgrade no seu estilo de vida! Apresentamos o sorteio mais aguardado do ano: concorra a uma incrível Fiat Fastback T200 23/24 ou a um prêmio em dinheiro no valor de R$100.000,00! Além da chance de ganhar um veículo icônico e sofisticado como a Range Rover Evoque, você também pode optar pelo prêmio em dinheiro de R$100.000. É a oportunidade perfeita para realizar seus sonhos, seja com um carro de alta performance ou com uma quantia em dinheiro para investir como preferir. Participe e boa sorte! 🤞
+      <p>Esta é sua chance de brilhar e conquistar um prêmio que vai mudar sua vida. Não fique de fora, participe agora e seja o próximo grande vencedor!</p>
+    </div>
+  </section>
+
+  <section class="search-orders-section container">
+    <h1>Buscar <span>Pedidos</span></h1>
+    <p>Informe o número de telefone para consultar informações sobre os seus pedidos.</p>
+    <div class="search-wrapper">
+      <input type="tel" name="tel" id="tel" placeholder="Digite seu telefone">
+      <button class="btn-search">Buscar</button>
+    </div>
+  </section>
+
+  <section class="raffle-explanation-section container">
+    <h1>Como funciona o <span>sorteio</span>?</h1>
+    <p>Entenda o passo a passo antes de participar</p>
+    <div class="explanation-steps">
+      <article class="step">
+        <h2>01</h2>
+        <h3>Selecione seus bilhetes</h3>
+        <p>Você pode escolher quantos bilhetes desejar! Mais bilhetes, mais chances de ganhar.</p>
+      </article>
+      <article class="step">
+        <h2>02</h2>
+        <h3>Faça o pagamento</h3>
+        <p>Faça o pagamento no(s) método(s) de pagamento(s) disponíveis no site.</p>
+      </article>
+      <article class="step">
+        <h2>03</h2>
+        <h3>Aguarde a ação</h3>
+        <p>Aguarde a Ação. Cruze os deados! Você pode ser o próximo sorteado.</p>
+      </article>
+    </div>
+  </section>
+</div>
+<app-raffle></app-raffle>
+<app-footer></app-footer>
