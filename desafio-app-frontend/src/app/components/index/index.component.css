@@ -1,0 +1,257 @@
+.content {
+  height: 100%;
+  background-color: #000000;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.logo img{
+  max-width: 350px;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 50px;
+}
+.banner-image {
+  max-width: 50%;
+}
+.promo-raffles {
+  max-width: 50%;
+  margin: 0 auto;
+  font-weight: 400;
+  text-align: center;
+}
+.promo-raffles span {
+  color: #2fc57d;
+  font-weight: 500;
+}
+.promo-raffles,
+.description {
+  margin-top: 20px;
+}
+.quota {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.min-quota {
+  margin-top: 0;
+}
+.promo-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.select-raffles {
+  margin-top: 20px;
+}
+.select-raffle {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.raffle-option {
+  background-color: #1f2020;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.253);
+  text-align: center;
+  cursor: pointer;
+}
+.raffle-option h2 {
+  margin: 0;
+}
+.raffle-option p {
+  margin: 0;
+  font-size: 0.8em;
+}
+.buy-raffles {
+  margin-top: 20px;
+}
+.buy-raffle {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cont-raffles {
+  border: 2px solid #2fc57d;
+  border-radius: 5px;
+  padding: 10px 100px;
+  font-weight: 700;
+}
+.btn-add-raffle,
+.btn-subtract-raffle {
+  font-size: 1.1em;
+  background-color: #2fc57d;
+  padding: 0 15px;
+  border-radius: 2px;
+  border-style: none;
+}
+.buy-raffles .btns-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-buy-raffle {
+  background-color: #2fc57d;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 120px;
+  text-align: center;
+}
+.btn-list-raffle {
+  background-color: transparent;
+  color: #2fc57d;
+  border: 2px solid #2fc57d;
+  margin-top: 20px;
+  padding: 10px 120px;
+  border-radius: 5px;
+}
+.check-section {
+  padding: 50px 20px;
+}
+.check-section h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2em;
+  font-weight: 400;
+}
+.check-section h1 span {
+  color: #2fc57d;
+  font-weight: 500;
+}
+.prizes-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.prize-item {
+  text-align: center;
+  max-width: 250px;
+  margin-bottom: 30px;
+}
+.prize-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+.prize-item h2,
+.prize-item h3,
+.prize-item h4 {
+  margin: 10px 0;
+}
+.prize-item h3 {
+  color:#2fc57d;
+}
+.prize-item h3,
+.prize-item h4 {
+  font-weight: 200;
+}
+.terms-section {
+  padding: 50px 20px;
+}
+.terms-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+.terms-section h1 span {
+  color: #2fc57d;
+  font-weight: 700;
+}
+.description-wrapper {
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  padding: 20px;
+  border-radius: 10px;
+}
+.description-wrapper p {
+  margin-bottom: 20px;
+  font-weight: 200;
+  line-height: 1.6;
+}
+.search-orders-section {
+  background-color: #1a1a1a;
+  padding: 50px 20px;
+  text-align: center;
+}
+.search-orders-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.search-orders-section h1 span {
+  color: #2fc57d;
+  font-weight: 700;
+}
+.search-orders-section p {
+  margin-bottom: 20px;
+}
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-wrapper input {
+  padding: 10px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #1a1a1a;
+}
+.search-wrapper input::placeholder {
+  color: #999999;
+}
+.btn-search {
+  background-color: #2fc57d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.raffle-explanation-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.raffle-explanation-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.raffle-explanation-section span{
+  color: #2fc57d;
+  font-weight: 700;
+}
+.raffle-explanation-section p {
+  margin-bottom: 40px;
+}
+.explanation-steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.step {
+  background-color: #2fc57d;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+  padding: 20px;
+}
+.step h2 {
+  margin: 0;
+  font-size: 4em;
+}
+.step h3 {
+  font-size: 1.1rem;
+}
+.step p {
+  margin-top: 0px;
+  font-size: 0.7em;
+}
+
