@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { MenuComponent } from "../layouts/menu/menu.component";
+import { FooterComponent } from '../layouts/footer/footer.component';
+import { RaffleComponent } from "../raffle/raffle.component";
 
 @Component({
   selector: 'app-index',
   standalone: true,
-  imports: [MenuComponent],
+  imports: [MenuComponent, FooterComponent, RaffleComponent],
   templateUrl: './index.component.html',
   styleUrl: './index.component.css'
 })
