@@ -1,1 +1,33 @@
-<p>raffle-list works!</p>
+<div class="raffle-list container">
+  <h2>Confira suas rifas</h2>
+    <p>Aqui estão seus números...</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Númeroº Rifa</th>
+          <th>Válido</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        @if(list.length == 0) {
+          <td>--</td>
+          <td>--</td>
+          <td>--</td>
+        } @else {
+          @for (raffle of list; track $index) {
+          <tr>
+            <td>{{raffle.user}}</td>
+            <td>{{raffle.number}}</td>
+            @if(raffle.purchased) {
+              <td>Sim</td>
+            } @else {
+              <td>Não</td>
+            }
+          </tr>
+        }
+      }
+      </tbody>
+    </table>
+</div>

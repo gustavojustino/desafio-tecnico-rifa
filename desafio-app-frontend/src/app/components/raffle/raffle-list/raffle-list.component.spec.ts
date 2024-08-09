@@ -11,7 +11,7 @@ describe('RaffleListComponent', () => {
       imports: [RaffleListComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(RaffleListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
