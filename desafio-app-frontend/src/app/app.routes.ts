@@ -3,7 +3,7 @@ import { IndexComponent } from './components/index/index.component';
 import { RaffleListComponent } from './components/raffle/raffle-list/raffle-list.component';
 import { BuyRaffleComponent } from './components/raffle/buy-raffle/buy-raffle.component';
 import { DrawRaffleComponent } from './components/raffle/draw-raffle/draw-raffle.component';
-import { RaffleComponent } from './components/raffle/raffle.component';
+import { RaffleComponent } from './components/raffle/raffle/raffle.component';
 
 export const routes: Routes = [
   {path: "", redirectTo:"/index", pathMatch: 'full'},
