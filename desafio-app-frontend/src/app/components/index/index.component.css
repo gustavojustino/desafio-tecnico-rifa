@@ -45,8 +45,10 @@
   font-size: 2em;
   margin-bottom: 10px;
 }
-.select-raffles {
+.buy-raffles-content {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .select-raffle {
   display: flex;
@@ -82,26 +84,32 @@
   padding: 10px 100px;
   font-weight: 700;
 }
-.btn-add-raffle,
-.btn-subtract-raffle {
-  font-size: 1.1em;
-  background-color: #2fc57d;
-  padding: 0 15px;
-  border-radius: 2px;
-  border-style: none;
-}
-.buy-raffles .btns-wrapper {
+.btns-raffles {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.btn-add-raffle,
+.btn-subtract-raffle {
+  font-size: 1.1em;
+  background-color: #2fc57d;
+  color: #ffffff;
+  padding: 0 15px;
+  border-radius: 2px;
+  border-style: none;
+  cursor: pointer;
+}
 .btn-buy-raffle {
   background-color: #2fc57d;
+  color: #ffffff;
   border-style: none;
   border-radius: 5px;
   padding: 10px 120px;
   text-align: center;
+  cursor: pointer;
+  font-weight: 600;
 }
 .btn-list-raffle {
   background-color: transparent;
@@ -110,6 +118,8 @@
   margin-top: 20px;
   padding: 10px 120px;
   border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
 }
 .check-section {
   padding: 50px 20px;
@@ -255,3 +265,22 @@
   font-size: 0.7em;
 }
 
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .promo-raffles {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .prizes-wrapper {
+    flex-direction: column;
+  }
+
+  .header-container {
+    margin: 20px;
+  }
+}
