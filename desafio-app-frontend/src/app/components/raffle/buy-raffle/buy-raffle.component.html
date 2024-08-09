@@ -1,1 +1,33 @@
-<p>buy-raffle works!</p>
+<div class="buy-raffles-content">
+  <div class="select-raffle">
+    <span class="raffle-option quota-10" (click)="setQuantity(10)">
+      <h2>+10</h2>
+      <p>Números</p>
+    </span>
+
+    <span class="raffle-option quota-25" (click)="setQuantity(25)">
+      <h2>+25</h2>
+      <p>Números</p>
+    </span>
+
+    <span class="raffle-option quota-50" (click)="setQuantity(50)">
+      <h2>+50</h2>
+      <p>Números</p>
+    </span>
+  </div>
+
+  <div class="buy-raffles">
+    <div class="buy-raffle">
+      <button class="btn-add-raffle" (click)="increaseQuantity()">+</button>
+      <span class="cont-raffles">{{ quantity }}</span>
+      <button class="btn-subtract-raffle" (click)="decreaseQuantity()">-</button>
+    </div>
+
+    <div class="btns-raffles">
+      <button class="btn-buy-raffle" (click)="buyRaffle()">Comprar agora</button>
+      <button class="btn-list-raffle" (click)="modal.openModal()">Ver meus números</button>
+    </div>
+  </div>
+</div>
+
+<app-modal #modal></app-modal>

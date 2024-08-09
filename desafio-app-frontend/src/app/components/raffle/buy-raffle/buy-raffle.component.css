@@ -1,0 +1,87 @@
+.buy-raffles-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-raffle {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.raffle-option {
+  background-color: #1f2020;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.253);
+  text-align: center;
+  cursor: pointer;
+}
+
+.raffle-option h2 {
+  margin: 0;
+}
+
+.raffle-option p {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.buy-raffles {
+  margin-top: 20px;
+}
+
+.buy-raffle {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cont-raffles {
+  border: 2px solid #2fc57d;
+  border-radius: 5px;
+  padding: 10px 100px;
+  font-weight: 700;
+}
+
+.btns-raffles {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-add-raffle,
+.btn-subtract-raffle {
+  font-size: 1.1em;
+  background-color: #2fc57d;
+  color: #ffffff;
+  padding: 0 15px;
+  border-radius: 2px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn-buy-raffle {
+  background-color: #2fc57d;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 120px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-list-raffle {
+  background-color: transparent;
+  color: #2fc57d;
+  border: 2px solid #2fc57d;
+  margin-top: 20px;
+  padding: 10px 120px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
